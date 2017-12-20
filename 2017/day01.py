@@ -29,8 +29,6 @@ if part1:
 			sum += int(nextChar)
 		currChar = nextChar
 
-	print(sum)
-
 else:
 	inputLen = len(input)
 	halfwaySteps = inputLen//2
@@ -45,4 +43,4 @@ else:
 			sum += int(nextChar)
 		currChar = nextChar
 
-	print(sum)
+print(sum)
